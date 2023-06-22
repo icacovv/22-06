@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 600px;
+  background-color: bisque;
+}
+header {
+  min-height: 250px;
+  width: 75%;
+  margin: 0 auto;
+}
+nav {
+  width: 100%;
+  background-color: chocolate;
+}
+ul {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+li {
+  list-style-type: none;
+  padding: 10px 15px;
+}
+li:hover {
+  background-color: darkblue;
+}
